@@ -1,4 +1,4 @@
-cask :v1 => 'scansnap-manager-s300m-s500m-s510m-fi-5110eoxm-legacy' do
+cask 'scansnap-manager-s300m-s500m-s510m-fi-5110eoxm-legacy' do
   version '2.2L11'
   sha256 '63d22a3ea7b01a32b0064bacad74dd82359ed366f5039d0fb6519e78cfee5beb'
 
@@ -7,7 +7,7 @@ cask :v1 => 'scansnap-manager-s300m-s500m-s510m-fi-5110eoxm-legacy' do
   name 'ScanSnap Manager for Fujitsu ScanSnap S500M'
   name 'ScanSnap Manager for Fujitsu ScanSnap S510M'
   name 'ScanSnap Manager for Fujitsu ScanSnap fi-5110EOXM'
-  homepage 'http://www.fujitsu.com/global/support/computing/peripheral/scanners/software/mac.html'
+  homepage 'https://www.fujitsu.com/global/support/computing/peripheral/scanners/software/mac.html'
   license :gratis
 
   pkg 'ScanSnap_V22L11.pkg'

@@ -1,4 +1,4 @@
-cask :v1 => 'libreoffice-beta' do
+cask 'libreoffice-beta' do
   version '5.1.0.0.beta2'
   sha256 '4ff5f22273b7e9e8abaabbbcd62bbbb06c2c90c9c45030f00a324f0cca26f73b'
 
@@ -7,7 +7,7 @@ cask :v1 => 'libreoffice-beta' do
       :key_id => 'c2839ecad9408fbe9531c3e9f434a1efafeeaea3'
   name 'LibreOffice'
   name 'LibreOfficeDev'
-  homepage 'https://www.libreoffice.org/'
+  homepage 'https://www.libreoffice.org/download/pre-releases/'
   license :mpl
 
   app 'LibreOfficeDev.app'

@@ -1,12 +1,11 @@
-cask :v1 => 'firefox-it' do
-  version '42.0'
-  sha256 '95828359c0691dea86eddbc3ea2f75b7d387323c09d23f3773a5e6ebc76df4f2'
+cask 'firefox-it' do
+  version '43.0.3'
+  sha256 'aa00fefedb42538cf4d3f4b3ea1a778b48023bc4194c4bfad38c3bc02eb81208'
 
   url "https://download.mozilla.org/?product=firefox-#{version}-SSL&os=osx&lang=it"
-  name 'Firefox'
+  name 'Mozilla Firefox'
   homepage 'https://www.mozilla.org/it/firefox/desktop'
   license :mpl
-  tags :vendor => 'Mozilla'
 
   app 'Firefox.app'
 

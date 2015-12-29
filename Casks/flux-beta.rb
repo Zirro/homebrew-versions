@@ -1,4 +1,4 @@
-cask :v1 => 'flux-beta' do
+cask 'flux-beta' do
   version :latest
   sha256 :no_check
 
@@ -12,6 +12,8 @@ cask :v1 => 'flux-beta' do
   postflight do
     suppress_move_to_applications
   end
+  
+  uninstall :login_item => 'Flux'
   
   zap :delete => '~/Library/Preferences/org.herf.Flux.plist'
 end

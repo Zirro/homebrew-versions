@@ -1,4 +1,4 @@
-cask :v1 => 'firefox-beta-cn' do
+cask 'firefox-beta-cn' do
   version '42.0b9'
   sha256 'b04642cf9ff1abf58e67583c4740da2b1cfcb928c168e825f237f83be8bd2d47'
 
@@ -7,7 +7,6 @@ cask :v1 => 'firefox-beta-cn' do
   name 'Mozilla Firefox'
   homepage 'https://www.mozilla.org/zh-CN/firefox/beta/'
   license :mpl
-  tags :vendor => 'Mozilla'
 
   app 'Firefox.app'
 

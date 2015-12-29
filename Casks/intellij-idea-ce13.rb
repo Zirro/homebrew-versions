@@ -1,8 +1,8 @@
-cask :v1 => 'intellij-idea-ce13' do
+cask 'intellij-idea-ce13' do
   version '13.1.6'
   sha256 '862b8b4b8474f88e9df930185b035c65b54e71125796f591dea28cff7db929eb'
 
-  url "http://download.jetbrains.com/idea/ideaIC-#{version}.dmg"
+  url "https://download.jetbrains.com/idea/ideaIC-#{version}.dmg"
   homepage 'https://www.jetbrains.com/idea/index.html'
   license :apache
 

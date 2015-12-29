@@ -1,4 +1,4 @@
-cask :v1 => 'yandex-beta' do
+cask 'yandex-beta' do
   version :latest
   sha256 :no_check
 
@@ -7,7 +7,6 @@ cask :v1 => 'yandex-beta' do
   name 'Custo'
   homepage 'https://browser.yandex.ru/beta/'
   license :commercial
-  tags :vendor => 'Yandex'
 
   app 'Yandex.app'
 end

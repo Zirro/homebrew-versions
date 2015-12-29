@@ -1,4 +1,4 @@
-cask :v1 => 'google-chrome-dev' do
+cask 'google-chrome-dev' do
   version :latest
   sha256 :no_check
 
@@ -6,7 +6,6 @@ cask :v1 => 'google-chrome-dev' do
   name 'Google Chrome'
   homepage 'https://www.google.com/chrome/browser/desktop/index.html?extra=devchannel'
   license :gratis
-  tags :vendor => 'Google'
 
   app 'Google Chrome.app'
 

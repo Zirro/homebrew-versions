@@ -1,11 +1,11 @@
-cask :v1 => 'scansnap-manager-s300m-s510m' do
+cask 'scansnap-manager-s300m-s510m' do
   version '2.2L16'
   sha256 'e67ce69636883acbdaaec40bb02d8f774c383aaa1c834a08c305a990c8a49436'
 
   url 'http://www.fujitsu.com/downloads/IMAGE/driver/ss/ScanSnap_V22L16.dmg'
   name 'ScanSnap Manager for Fujitsu ScanSnap S300M'
   name 'ScanSnap Manager for Fujitsu ScanSnap S510M'
-  homepage 'http://www.fujitsu.com/global/support/computing/peripheral/scanners/software/mac-mg22-eol.html'
+  homepage 'https://www.fujitsu.com/global/support/computing/peripheral/scanners/software/mac-mg22-eol.html'
   license :gratis
 
   pkg 'ScanSnap_V22L16.pkg'

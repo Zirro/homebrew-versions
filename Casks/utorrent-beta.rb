@@ -1,10 +1,10 @@
-cask :v1 => 'utorrent-beta' do
+cask 'utorrent-beta' do
   version :latest
   sha256 :no_check
 
-  url 'http://download-new.utorrent.com/endpoint/utmac/os/osx/track/beta/'
+  url 'https://download-new.utorrent.com/endpoint/utmac/os/osx/track/beta/'
   name 'µTorrent'
-  homepage 'http://www.utorrent.com/'
+  homepage 'https://www.utorrent.com/'
   license :freemium
 
   zap :delete => [

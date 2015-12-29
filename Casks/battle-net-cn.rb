@@ -1,13 +1,12 @@
-cask :v1 => 'battle-net-cn' do
+cask 'battle-net-cn' do
   version :latest
   sha256 :no_check
 
   # blizzard.com is the official download host per the vendor homepage
   url 'http://www.battlenet.com.cn/download/getInstaller?os=mac&installer=Battle.net-Setup-zhCN.zip'
-  name 'Battle.net'
+  name 'Blizzard Battle.net'
   homepage 'http://www.battlenet.com.cn/zh/'
   license :commercial
-  tags :vendor => 'Blizzard'
 
   installer :manual => 'Battle.net-Setup-zhCN.app'
 
